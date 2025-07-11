@@ -20,7 +20,7 @@ const sampleData = [
     phoneNo: "+91 98765 43210",
     joinDate: "02/20/2024",
     profileImage:
-      "https://www.google.com/imgres?q=img%20dp&imgurl=https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fa%2FAVvXsEgrhZC7JahHh8UpgnG-pyq822oYO1sc5E2AJp_dDYYhckg6GqS3YnwHEtY4FfW8p2uR4YJqrz9fsV83uZsxJMTcjt1srSLOLVtrtuHClJcrId6bclxlnH30vrvcYJz7XbSSMHrz0N9saa1D8ZF91TQHWPbSDuWwEwkEAcwBfZuFrczOwEdQtEYVk3F2Pw%3Ds320&imgrefurl=https%3A%2F%2Fusername4all.com%2Fboys-dp%2F&docid=dlkqvZo1PkL5kM&tbnid=1mYRqkbgGM2Y4M&vet=12ahUKEwiNltSi3rSOAxVHXmwGHYMOFGAQM3oECB0QAA..i&w=320&h=320&hcb=2&ved=2ahUKEwiNltSi3rSOAxVHXmwGHYMOFGAQM3oECB0QAA",
+      "https://blogger.googleusercontent.com/img/a/AVvXsEgrhZC7JahHh8UpgnG-pyq822oYO1sc5E2AJp_dDYYhckg6GqS3YnwHEtY4FfW8p2uR4YJqrz9fsV83uZsxJMTcjt1srSLOLVtrtuHClJcrId6bclxlnH30vrvcYJz7XbSSMHrz0N9saa1D8ZF91TQHWPbSDuWwEwkEAcwBfZuFrczOwEdQtEYVk3F2Pw=s320",
     address:
       "RISH Jhansi Incubation Centre<br>Jhansi Nagar Nigam Premises, Near<br>Elite Chauraha, Civil Line, Jhansi,<br>Uttar Pradesh - 204002",
   },
