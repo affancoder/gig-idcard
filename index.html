@@ -1,99 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GigsTM ID Card Template</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="header">
-        <h1>GigsTM ID Card Template</h1>
-        <p id="cardCounter">Card 1 of 3</p>
+      <h1>GigsTM ID Card Template</h1>
+      <p id="cardCounter">Card 1 of 3</p>
     </div>
 
     <div class="card-container">
-        <div class="card" id="idCard">
-            <!-- Front Side -->
-            <div class="card-face card-front">
-                <div class="card-header">
-                    <div class="logo">
+      <div class="card" id="idCard">
+        <!-- Front Side -->
+        <div class="card-face card-front">
+          <div class="card-header">
+            <!-- <div class="logo">
                         <span class="g">G</span>IGSTM
                     </div>
-                    <div class="tagline">Gigs Thru Mobile...</div>
-                </div>
-                
-                <div class="card-content">
-                    <div class="profile-section">
-                        <img id="profileImage" class="profile-image" src="" alt="Profile">
-                        <div id="employeeName" class="employee-name"></div>
-                        <div id="employeeId" class="employee-id"></div>
-                    </div>
-                    
-                    <div class="details">
-                        <div class="detail-row">
-                            <span class="detail-label">Partner Name</span>
-                            <span>:</span>
-                            <span id="partnerName" class="detail-value"></span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Project Name</span>
-                            <span>:</span>
-                            <span id="projectName" class="detail-value"></span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Phone no</span>
-                            <span>:</span>
-                            <span id="phoneNo" class="detail-value"></span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card-footer">
-                    <div class="wave"></div>
-                </div>
+                    <div class="tagline">Gigs Thru Mobile...</div> -->
+            <img src="lgo_project1.png" />
+          </div>
+
+          <div class="card-content">
+            <div class="profile-section">
+              <img
+                id="profileImage"
+                class="profile-image"
+                src=""
+                alt="Profile"
+              />
+              <div id="employeeName" class="employee-name"></div>
+              <div id="employeeId" class="employee-id"></div>
             </div>
 
-            <!-- Back Side -->
-            <div class="card-face card-back">
-                <div class="card-header">
-                    <div class="logo">
-                        <span class="g">G</span>IGSTM
-                    </div>
-                    <div class="tagline">Gigs Thru Mobile...</div>
-                </div>
-                
-                <div class="back-content">
-                    <div class="join-date">
-                        <strong>Join :</strong> <span id="joinDate"></span>
-                    </div>
-                    
-                    <div id="address" class="address"></div>
-                    
-                    <a href="https://www.gigstm.com" class="website" target="_blank">
-                        WWW.GIGSTM.COM
-                    </a>
-                </div>
-                
-                <div class="card-footer">
-                    <div class="wave"></div>
-                </div>
+            <div class="details">
+              <div class="detail-row">
+                <span class="detail-label">Partner Name</span>
+                <span>:</span>
+                <span id="partnerName" class="detail-value"></span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Project Name</span>
+                <span>:</span>
+                <span id="projectName" class="detail-value"></span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Phone no</span>
+                <span>:</span>
+                <span id="phoneNo" class="detail-value"></span>
+              </div>
             </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="wave"></div>
+          </div>
         </div>
+
+        <!-- Back Side -->
+        <div class="card-face card-back">
+          <div class="card-header">
+            <img src="lgo_project1.png" />
+          </div>
+
+          <div class="back-content">
+            <div id="back-content-text">
+              <div class="join-date">
+                <strong>Join :</strong> <b><span id="joinDate"></span></b>
+              </div>
+
+              <div id="address" class="address"></div>
+            </div>
+
+            <a href="https://www.gigstm.com" class="website" target="_blank">
+              WWW.GIGSTM.COM
+            </a>
+          </div>
+
+          <div class="card-footer">
+            <div class="wave"></div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="controls">
-        <button class="btn btn-primary" onclick="previousCard()">Previous</button>
-        <button class="btn btn-success" onclick="flipCard()">
-            <span id="flipText">Show Back</span>
-        </button>
-        <button class="btn btn-primary" onclick="nextCard()">Next</button>
+      <button class="btn btn-primary" onclick="previousCard()">Previous</button>
+      <button class="btn btn-success" onclick="flipCard()">
+        <span id="flipText">Show Back</span>
+      </button>
+      <button class="btn btn-primary" onclick="nextCard()">Next</button>
     </div>
 
     <div class="info">
-        <p>Sample data from array - replace with backend API</p>
+      <p>Sample data from array - replace with backend API</p>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
